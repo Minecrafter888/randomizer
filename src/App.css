@@ -1,0 +1,28 @@
+#assignments{
+  color: #969992
+}
+#names{
+  color: #D6AE01;
+  background-color: #E63244;
+}
+#positions{
+  color: #D6AE01;
+  background-color: #E63244;
+}
+label{
+  color: #F75E25;
+}
+h1{
+  color: #EDFF21;
+}
+h2{
+  color: #EDFF21;
+}
+body{
+  background-color: black
+  ;
+}
+button{
+  background-color: #3F888F;
+  color: #ED760E;
+}

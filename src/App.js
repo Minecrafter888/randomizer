@@ -5,10 +5,8 @@ function App() {
   const [names, setnames] = useState("")
   const [positions, setpositions] = useState("")
   const randomize = () =>{
-    const namesInput = names
-    const namesList = namesInput.split(",").map(name => name.trim());    
-    const positionsInput = positions
-    const positionsList = positionsInput.split(",").map(position => position.trim());     
+    const namesList = names.split(",").map(name => name.trim());    
+    const positionsList = positions.split(",").map(position => position.trim());     
     const assignments = [];
     while (namesList.length > 0) {
       const randomNameIndex = Math.floor(Math.random() * namesList.length);
